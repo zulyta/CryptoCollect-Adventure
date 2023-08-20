@@ -1,8 +1,7 @@
-### **CryptoCollect Adventure**
+# **CryptoCollect Adventure**
 
-CryptoCollect Adventure es un juego de colección blockchain en el que los jugadores pueden recolectar valiosos tokens coleccionables y utilizar tokens ERC-20 para desbloquear recompensas y adquirir más coleccionables. Los jugadores participarán en misiones para ganar tokens ERC-20 y luego podrán canjear estos tokens por tokens coleccionables únicos y valiosos.
-
-#### **Implementación**
+CryptoCollect Adventure es un juego de colección donde los jugadores pueden embarcarse en emocionantes misiones, ganar recompensas en forma de tokens ERC20 llamados "GameToken" y coleccionar tokens ERC721 únicos que representan logros y momentos destacados en el juego.
+## **Implementación**
 
 1. Preparación del entorno
 
@@ -40,14 +39,14 @@ CryptoCollect Adventure es un juego de colección blockchain en el que los jugad
 - En Remix, invoca la función `rewardTokens` en el contrato GameToken para enviar tokens a una dirección.
 - Luego, invoca la función `exchangeTokensForCollectible` para convertir algunos tokens en tokens coleccionables en el contrato CollectibleToken.
 
-#### **Cómo Jugar**
+## **Cómo Jugar**
 
 - **Misión y Recompensa:**
-  - Los jugadores completan misiones en el juego para ganar tokens ERC-20 llamados "Adventure Tokens".
-  - Cada misión completada otorga una cierta cantidad de Adventure Tokens basada en la dificultad y logros de la misión.
+  - Los jugadores completan misiones en el juego para ganar tokens ERC-20 llamados "GameToken".
+  - Cada misión completada otorga una cierta cantidad de GameTokens basada en la dificultad y logros de la misión.
 - **Intercambio de Tokens:**
-  - Los jugadores pueden usar sus Adventure Tokens para canjear tokens coleccionables únicos en el contrato ERC-721 llamado "CollectibleToken".
-  - Utilizando la función `exchangeTokensForCollectible` del contrato GameToken, los jugadores intercambian una cantidad específica de Adventure Tokens por un nuevo token coleccionable único en el contrato CollectibleToken.
+  - Los jugadores pueden usar sus GameTokens para canjear tokens coleccionables únicos en el contrato ERC-721 llamado "CollectibleToken".
+  - Utilizando la función `exchangeTokensForCollectible` del contrato GameToken, los jugadores intercambian una cantidad específica de GameToken por un nuevo token coleccionable único en el contrato CollectibleToken.
 - **Colección y Valor:**
   - Los tokens coleccionables ERC-721 son únicos y no fungibles, lo que significa que cada uno tiene su propio identificador y características.
   - Los jugadores pueden acumular una colección de tokens coleccionables que representan logros y progresos en el juego.
